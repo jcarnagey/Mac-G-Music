@@ -1,3 +1,4 @@
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -38,4 +39,15 @@ a .fa:hover {
 a .fa fa-facebook:hover {
     filter: blur(10px);
     border: solid pink 3px;
+
+header{
+    text-align: center;
+}
+header h1{
+   font-size: 80px; 
+}
+
+header img{
+    width: 20%;
+    height: 10%;
 }
