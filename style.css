@@ -1,3 +1,45 @@
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+a .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+.social-icons {
+    margin-left: 50%;
+    display: inline-block;
+    position: fixed;
+}
+
+a .fa fa-facebook:hover {
+    filter: blur(10px);
+    border: solid pink 3px;
+
 header{
     text-align: center;
 }
