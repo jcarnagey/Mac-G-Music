@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
@@ -7,13 +8,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mac G Music</title>
 </head>
+
 <body>
+    <h3 id="quote"></h3>
     <header>
         <div id="title">
             <p class="title">Mac G Music</p>
             <p>Business Name: makg_entertainment</p>
         </div>
     </header>
+
+    <h2>MakG Reviews</h2>
+    <br>
+    <h3 id="ss-review" style="color: #008000"></h3>
+    <hr>
+
+
     <div class="info">
     <img class="head-pic" src="images/saxophone-player.jpg" alt="saxophone-player">
     <h2>MakG Reviews</h2>
@@ -21,12 +31,49 @@
         <hr>
     </div>
 
+
+    <form id="formation" name="my-form" action="index.html" method="post" autocomplete="on">
+        <legend style="font-weight: bold;">Book Me!</legend>
+        <br>
+        <br>
+        <!--H2 that introduces your form-->
+        <label for="name">Enter Your Name:</label>
+        <input type="text" id="name" required minlength="2" maxlength="20" placeholder="name">
+        <br><br>
+
+        <label for="email">Enter Your Email:</label>
+        <input type="email" id="email" required>
+        <br><br>
+
+        <label for="password">Create A Password:</label>
+        <input type="password" id="password" placeholder="must contain a number and symbol">
+        <br><br>
+
+        <label for="tel">Enter your Phone Number:</label>
+        <input type="tel" id="telephone" placeholder="telephone">
+        <br><br>
+
+        <h4>Best Time To Contact</h4>
+        <input type="radio" id="morning" name="contact time" value="morning">
+        <label for="radio">Morning</label>
+
+        <input type="radio" id="afternoon" name="contact time" value="afternoon">
+        <label for="radio">Afternoon</label>
+
+        <input type="radio" id="evening" name="contact time" value="evening">
+        <label for="radio">Evening</label>
+        <br><br>
+        <input type="submit" id="submit" value="SUBMIT">
+
+    </form>
+
+
     <div class="social-icons">
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-linkedin"></a>
     </div>
-    
+
 </body>
 
 </html>
