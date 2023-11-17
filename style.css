@@ -16,7 +16,6 @@ a .fa:hover {
 .fa-facebook {
     background: #3b5998;
     color: white;
-
 }
 
 .fa-twitter {
@@ -39,15 +38,27 @@ a .fa:hover {
 a .fa fa-facebook:hover {
     filter: blur(10px);
     border: solid pink 3px;
-
-header{
-    text-align: center;
+}
+#title{
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+#title p{
+    font-size: xx-large;
+    padding: 10px;
+    color: white;
 }
 header h1{
    font-size: 80px; 
 }
 
-header img{
-    width: 20%;
-    height: 10%;
+.head-pic{
+    width: 25vw;
+    height: 65vh;
+    margin-left: 1vw;
+    margin-top: 4vh;
+}
+.info {
+    text-align:center;   
 }
